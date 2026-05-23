@@ -1,63 +1,95 @@
-# 🌸 Thauanne Luna — Portfólio
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=gradient&customColorList=24,30,33&section=header&text=Thauanne%20Luna&fontColor=ffffff&fontSize=42&animation=fadeIn"/>
 
 <div align="center">
 
-<img src="logo-tl.png" width="120"/>
+<img src="logo-tl.png" width="140"/>
 
-### ✨ Design Gráfico · Branding · Canva ✨
+# 🌸 Thauanne Luna 🌸
 
-_Portfólio pessoal desenvolvido para apresentar projetos, experiências, habilidades e identidade visual._
+### ✨ Design Gráfico • Branding • Front-end • Canva ✨
 
-[🌐 Ver Portfólio](https://thauanneluna.github.io) • 
-[💼 LinkedIn](https://www.linkedin.com/in/thauanne-luna-30b4833b5) • 
-[📷 Instagram](https://www.instagram.com/thauluna_acessorios) • 
-[💻 GitHub](https://github.com/thauanneluna)
+<p>
+💻 Criando experiências visuais modernas, delicadas e profissionais.
+</p>
+
+<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&size=27&pause=1000&color=F8BBD0&center=true&vCenter=true&width=700&lines=Criatividade+que+encontra+a+tecnologia+💕;Design+com+identidade+e+delicadeza+✨;Front-end+%2B+Branding+%2B+Experiência+Visual+🌙" />
+
+<br>
+
+<a href="https://thauanneluna.github.io">
+<img src="https://img.shields.io/badge/🌐_PORTFÓLIO-ff69b4?style=for-the-badge"/>
+</a>
+
+<a href="https://github.com/thauanneluna">
+<img src="https://img.shields.io/badge/GitHub-1f1f1f?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/thauanne-luna-30b4833b5">
+<img src="https://img.shields.io/badge/LinkedIn-dc84f3?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://www.instagram.com/thauluna_acessorios">
+<img src="https://img.shields.io/badge/Instagram-ffc0cb?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
 
 </div>
 
 ---
 
-# 🌙 Sobre
+# 🌙 Sobre Mim
 
 Olá! Me chamo **Thauanne Luna** e sou estudante de **Técnico em Informática** na  
-**EEEP Professora Luiza de Teodoro Vieira**, em Pacatuba — Ceará.
+🎓 **EEEP Professora Luiza de Teodoro Vieira** — Pacatuba, Ceará.
 
 Tenho paixão por:
-
 - 🎨 Design Gráfico
 - 💕 Branding
 - ✨ Identidade Visual
 - 💻 Desenvolvimento Front-end
-- 🌸 Criação de experiências visuais delicadas e modernas
+- 🌸 Experiências visuais delicadas e modernas
 
-Este portfólio foi criado para reunir meus projetos, habilidades, cursos e experiências.
-
----
-
-# 🖥️ Tecnologias Utilizadas
-
-```bash
-HTML5
-CSS3
-JavaScript
-Canva
-FlutterFlow
-GitHub Pages
-```
+Este portfólio foi criado para reunir:
+- 💼 Projetos
+- 📚 Conhecimentos
+- 🎓 Formação
+- 🚀 Evolução profissional
+- 💗 Minha identidade criativa
 
 ---
 
-# ✨ Funcionalidades
+# 💻 Tecnologias & Ferramentas
 
-✔️ Splash Screen animada  
-✔️ Tema claro/escuro  
-✔️ Menu responsivo  
-✔️ Cursor personalizado  
-✔️ Barra de progresso  
-✔️ Seção de projetos  
-✔️ Currículo para visualização/download  
-✔️ Layout moderno e elegante  
-✔️ Responsividade mobile  
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,javascript,github,vscode"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Canva-ff69b4?style=for-the-badge&logo=canva&logoColor=white"/>
+<img src="https://img.shields.io/badge/FlutterFlow-f8bbd0?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/GitHub%20Pages-dc84f3?style=for-the-badge"/>
+
+</div>
+
+---
+
+# ✨ Funcionalidades do Portfólio
+
+<div align="center">
+
+| 🌸 Recurso | 💖 Status |
+|---|---|
+| Splash Screen Animada | ✔️ |
+| Tema Claro/Escuro | ✔️ |
+| Menu Responsivo | ✔️ |
+| Cursor Personalizado | ✔️ |
+| Barra de Progresso | ✔️ |
+| Sessão de Projetos | ✔️ |
+| Download de Currículo | ✔️ |
+| Layout Moderno | ✔️ |
+| Responsividade Mobile | ✔️ |
+
+</div>
 
 ---
 
@@ -72,129 +104,153 @@ GitHub Pages
  ┣ 📄 Currículofoto.pdf
  ┣ 📄 Currículosemf.pdf
  ┗ 📄 README.md
-```
+
 
 ---
 
-# 🌸 Seções do Portfólio
+🌸 Seções do Portfólio
 
-## 🏠 Home
-Apresentação principal com identidade visual e introdução profissional.
+🏠 Home
 
-## 👩‍💻 Sobre Mim
-Informações pessoais, trajetória, habilidades e idiomas.
+Apresentação profissional com identidade visual elegante e moderna.
 
-## 📄 Currículos
-Versão com foto e versão sem foto disponíveis para visualização e download.
+👩‍💻 Sobre Mim
 
-## 🎓 Formação Acadêmica
-Cursos, certificações e formação técnica.
+Trajetória, habilidades, objetivos e idiomas.
 
-## 💼 Projetos
-Projetos desenvolvidos com HTML, CSS, Branding e Design.
+📄 Currículos
 
-## 📞 Contato
-Links diretos para WhatsApp, GitHub e LinkedIn.
+Versões para visualização e download.
+
+🎓 Formação Acadêmica
+
+Cursos, formação técnica e certificações.
+
+💼 Projetos
+
+Projetos de design, branding e desenvolvimento.
+
+📞 Contato
+
+Links rápidos para redes sociais e comunicação.
+
 
 ---
 
-# 🚀 Projetos Destacados
+🚀 Projetos Destacados
 
-## 🌙 Thau Luna Acessórios
-Site institucional da marca própria de acessórios personalizados.
+🌙 Thau Luna Acessórios
 
-🔗 Site:  
+✨ Site institucional da marca própria de acessórios personalizados.
+
+🔗 Site:
 https://thauanneluna.github.io/siteinstitucionalthauacessorios/
 
-🔗 Código:  
+🔗 Código:
 https://github.com/thauanneluna/siteinstitucionalthauacessorios
 
+
 ---
 
-## 🎁 World Perfect Personalizados
-Site para loja de personalizados com foco em presentes criativos.
+🎁 World Perfect Personalizados
 
-🔗 Site:  
+✨ Loja virtual com foco em presentes criativos e personalizados.
+
+🔗 Site:
 https://thauanneluna.github.io/WorldPerfect/
 
-🔗 Código:  
+🔗 Código:
 https://github.com/thauanneluna
+
 
 ---
 
-## 🐺 Teen Wolf
-Projeto temático inspirado na série Teen Wolf.
+🐺 Teen Wolf
 
-🔗 Site:  
+✨ Projeto temático inspirado na série Teen Wolf.
+
+🔗 Site:
 https://thauanneluna.github.io/TeenWolf/
 
-🔗 Código:  
+🔗 Código:
 https://github.com/thauanneluna
 
----
-
-# 📊 Habilidades
-
-| Habilidade | Nível |
-|---|---|
-| Design Gráfico | Avançando |
-| Canva | Avançando |
-| HTML & CSS | Intermediário |
-| Branding | Intermediário |
-| FlutterFlow | Básico |
 
 ---
 
-# 🌎 Idiomas
+📊 Habilidades
 
-| Idioma | Nível |
-|---|---|
-| Português | Nativo |
-| Espanhol | Intermediário |
-| Inglês | Básico |
+<div align="center">💻 Skill	🌸 Nível
 
----
+Design Gráfico	Avançando
+Canva	Avançando
+HTML & CSS	Intermediário
+Branding	Intermediário
+FlutterFlow	Básico
 
-# 📸 Preview
-
-<div align="center">
-
-✨ Interface elegante, moderna e responsiva ✨
 
 </div>
-
 ---
 
-# 📱 Contato
+🌎 Idiomas
 
-<div align="center">
+<div align="center">🌍 Idioma	✨ Nível
 
-<a href="https://wa.me/5585987511775" target="_blank">
+Português	Nativo
+Espanhol	Intermediário
+Inglês	Básico
+
+
+</div>
+---
+
+📸 Preview
+
+<div align="center">✨ Interface elegante • moderna • feminina • responsiva ✨
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=24,30,33&height=2"/></div>
+---
+
+📈 GitHub Stats
+
+<div align="center"><img height="180em" src="https://github-readme-stats.vercel.app/api?username=thauanneluna&show_icons=true&theme=rose_pine&hide_border=true"/><img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thauanneluna&layout=compact&theme=rose_pine&hide_border=true"/></div>
+---
+
+🌸 Estética & Identidade
+
+<div align="center"><img src="https://img.shields.io/badge/Style-Coquette-ffc0cb?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Vibe-Soft%20Luxury-f8bbd0?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Theme-Feminine-dc84f3?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Design-Elegant-ff69b4?style=for-the-badge"/></div>
+---
+
+📱 Contato
+
+<div align="center"><a href="https://wa.me/5585987511775">
 <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-</a>
-
-<a href="https://github.com/thauanneluna" target="_blank">
+</a><a href="https://github.com/thauanneluna">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/thauanne-luna-30b4833b5" target="_blank">
+</a><a href="https://www.linkedin.com/in/thauanne-luna-30b4833b5">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-</div>
-
+</a><a href="https://www.instagram.com/thauluna_acessorios">
+<img src="https://img.shields.io/badge/Instagram-ff69b4?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a></div>
 ---
 
-# 💕 Créditos
+💕 Créditos
 
-Desenvolvido com carinho por **Thauanne Luna** 🌸
+<div align="center">Desenvolvido com carinho por Thauanne Luna 🌸
 
-> “Criatividade que encontra a tecnologia.”
+> ✨ “Criatividade que encontra a tecnologia.”
 
----
 
-<div align="center">
-
-© 2026 Thauanne Luna — Todos os direitos reservados.
 
 </div>
+---
+
+<div align="center"><img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=gradient&customColorList=24,30,33"/>© 2026 Thauanne Luna
+
+💗 Todos os direitos reservados.
+
+</div>
+```
