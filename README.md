@@ -1,4 +1,3 @@
-```md
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=gradient&customColorList=24,30,33&section=header&text=Thauanne%20Luna&fontColor=ffffff&fontSize=42&animation=fadeIn"/>
 
 <div align="center">
@@ -15,6 +14,96 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&size=27&pause=1000&color=F8BBD0&center=true&vCenter=true&width=700&lines=Criatividade+que+encontra+a+tecnologia+💕;Design+com+identidade+e+delicadeza+✨;Front-end+%2B+Branding+%2B+Experiência+Visual+🌙" />
 
+<br>
+
+<a href="https://thauanneluna.github.io">
+<img src="https://img.shields.io/badge/🌐_PORTFÓLIO-ff69b4?style=for-the-badge"/>
+</a>
+
+<a href="https://github.com/thauanneluna">
+<img src="https://img.shields.io/badge/GitHub-1f1f1f?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/thauanne-luna-30b4833b5">
+<img src="https://img.shields.io/badge/LinkedIn-dc84f3?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://www.instagram.com/thauluna_acessorios">
+<img src="https://img.shields.io/badge/Instagram-ffc0cb?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+# 🌙 Sobre Mim
+
+Olá! Me chamo **Thauanne Luna** e sou estudante de **Técnico em Informática** na  
+🎓 **EEEP Professora Luiza de Teodoro Vieira** — Pacatuba, Ceará.
+
+Tenho paixão por:
+- 🎨 Design Gráfico
+- 💕 Branding
+- ✨ Identidade Visual
+- 💻 Desenvolvimento Front-end
+- 🌸 Experiências visuais delicadas e modernas
+
+Este portfólio foi criado para reunir:
+- 💼 Projetos
+- 📚 Conhecimentos
+- 🎓 Formação
+- 🚀 Evolução profissional
+- 💗 Minha identidade criativa
+
+---
+
+# 💻 Tecnologias & Ferramentas
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,javascript,github,vscode"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Canva-ff69b4?style=for-the-badge&logo=canva&logoColor=white"/>
+<img src="https://img.shields.io/badge/FlutterFlow-f8bbd0?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/GitHub%20Pages-dc84f3?style=for-the-badge"/>
+
+</div>
+
+---
+
+# ✨ Funcionalidades do Portfólio
+
+<div align="center">
+
+| 🌸 Recurso | 💖 Status |
+|---|---|
+| Splash Screen Animada | ✔️ |
+| Tema Claro/Escuro | ✔️ |
+| Menu Responsivo | ✔️ |
+| Cursor Personalizado | ✔️ |
+| Barra de Progresso | ✔️ |
+| Sessão de Projetos | ✔️ |
+| Download de Currículo | ✔️ |
+| Layout Moderno | ✔️ |
+| Responsividade Mobile | ✔️ |
+
+</div>
+
+---
+
+# 📂 Estrutura do Projeto
+
+```bash
+📁 portfolio
+ ┣ 📄 index.html
+ ┣ 📄 portfolio.css
+ ┣ 📄 portfolio.js
+ ┣ 📁 imagens
+ ┣ 📄 Currículofoto.pdf
+ ┣ 📄 Currículosemf.pdf
+ ┗ 📄 README.md
 <br>
 
 <a href="https://thauanneluna.github.io">
