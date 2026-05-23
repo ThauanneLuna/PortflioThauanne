@@ -42,6 +42,7 @@ Olá! Me chamo **Thauanne Luna** e sou estudante de **Técnico em Informática**
 🎓 **EEEP Professora Luiza de Teodoro Vieira** — Pacatuba, Ceará.
 
 Tenho paixão por:
+
 - 🎨 Design Gráfico
 - 💕 Branding
 - ✨ Identidade Visual
@@ -49,96 +50,7 @@ Tenho paixão por:
 - 🌸 Experiências visuais delicadas e modernas
 
 Este portfólio foi criado para reunir:
-- 💼 Projetos
-- 📚 Conhecimentos
-- 🎓 Formação
-- 🚀 Evolução profissional
-- 💗 Minha identidade criativa
 
----
-
-# 💻 Tecnologias & Ferramentas
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,javascript,github,vscode"/>
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Canva-ff69b4?style=for-the-badge&logo=canva&logoColor=white"/>
-<img src="https://img.shields.io/badge/FlutterFlow-f8bbd0?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/GitHub%20Pages-dc84f3?style=for-the-badge"/>
-
-</div>
-
----
-
-# ✨ Funcionalidades do Portfólio
-
-<div align="center">
-
-| 🌸 Recurso | 💖 Status |
-|---|---|
-| Splash Screen Animada | ✔️ |
-| Tema Claro/Escuro | ✔️ |
-| Menu Responsivo | ✔️ |
-| Cursor Personalizado | ✔️ |
-| Barra de Progresso | ✔️ |
-| Sessão de Projetos | ✔️ |
-| Download de Currículo | ✔️ |
-| Layout Moderno | ✔️ |
-| Responsividade Mobile | ✔️ |
-
-</div>
-
----
-
-# 📂 Estrutura do Projeto
-
-```bash
-📁 portfolio
- ┣ 📄 index.html
- ┣ 📄 portfolio.css
- ┣ 📄 portfolio.js
- ┣ 📁 imagens
- ┣ 📄 Currículofoto.pdf
- ┣ 📄 Currículosemf.pdf
- ┗ 📄 README.md
-<br>
-
-<a href="https://thauanneluna.github.io">
-<img src="https://img.shields.io/badge/🌐_PORTFÓLIO-ff69b4?style=for-the-badge"/>
-</a>
-
-<a href="https://github.com/thauanneluna">
-<img src="https://img.shields.io/badge/GitHub-1f1f1f?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/thauanne-luna-30b4833b5">
-<img src="https://img.shields.io/badge/LinkedIn-dc84f3?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://www.instagram.com/thauluna_acessorios">
-<img src="https://img.shields.io/badge/Instagram-ffc0cb?style=for-the-badge&logo=instagram&logoColor=white"/>
-</a>
-
-</div>
-
----
-
-# 🌙 Sobre Mim
-
-Olá! Me chamo **Thauanne Luna** e sou estudante de **Técnico em Informática** na  
-🎓 **EEEP Professora Luiza de Teodoro Vieira** — Pacatuba, Ceará.
-
-Tenho paixão por:
-- 🎨 Design Gráfico
-- 💕 Branding
-- ✨ Identidade Visual
-- 💻 Desenvolvimento Front-end
-- 🌸 Experiências visuais delicadas e modernas
-
-Este portfólio foi criado para reunir:
 - 💼 Projetos
 - 📚 Conhecimentos
 - 🎓 Formação
@@ -263,6 +175,7 @@ https://github.com/thauanneluna
 A **Thau Luna Acessórios** nasceu em 2025 com o propósito de transformar pequenos detalhes em algo especial. 💕
 
 Criamos acessórios delicados, criativos e cheios de significado, capazes de expressar:
+
 - ✝️ Fé
 - 🌙 Identidade
 - 💖 Afeto
@@ -276,18 +189,20 @@ Mais do que acessórios, queremos entregar experiências encantadoras e cheias d
 # 🎯 Missão, Visão & Valores
 
 ## 🎯 Missão
+
 Criar acessórios delicados e personalizados que permitam às pessoas expressarem sentimentos, identidade e estilo através de pequenos detalhes cheios de significado.
 
 ## 🌙 Visão
+
 Ser reconhecida pela criatividade, autenticidade e delicadeza, levando experiências encantadoras para cada vez mais pessoas.
 
 ## 💖 Valores
 
-- ✦ Carinho nos detalhes  
-- ✦ Criatividade  
-- ✦ Delicadeza  
-- ✦ Significado  
-- ✦ Autenticidade  
+- ✦ Carinho nos detalhes
+- ✦ Criatividade
+- ✦ Delicadeza
+- ✦ Significado
+- ✦ Autenticidade
 
 ---
 
@@ -341,38 +256,6 @@ A **TL Design** cria projetos modernos, delicados e profissionais para marcas qu
 - 🎨 Identidade Visual
 - 📱 Artes para redes sociais
 - ✨ Design criativo
-
----
-
-# 📦 Políticas
-
-## 📦 Produção & Entrega
-Produtos feitos sob encomenda com prazo de até 10 dias úteis.
-
-## 🔄 Trocas & Devoluções
-Trocas aceitas em casos de defeito ou erro no envio.
-
-## 💳 Pagamento
-Pix, PicPay e cartão de crédito.
-
-## 🔒 Privacidade
-Seus dados são usados apenas para processar pedidos.
-
----
-
-# 💬 Avaliações
-
-> 🌸 “Os chaveiros ficaram lindos demais e de perfeita qualidade!”  
-> — Mariana F.
-
-> 💫 “A pulseira ficou ótima, ela amou!”  
-> — Gabriel S.
-
-> ✨ “Tudo muito lindo e criativo.”  
-> — Beatriz L.
-
-> 💖 “Amei o chaveiro, muito bonito!”  
-> — Lívia F.
 
 ---
 
@@ -494,4 +377,3 @@ Seus dados são usados apenas para processar pedidos.
 💗 Todos os direitos reservados.
 
 </div>
-```
