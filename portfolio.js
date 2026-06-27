@@ -344,5 +344,55 @@ document.addEventListener('DOMContentLoaded', function () {
     document.head.appendChild(link);
   });
    
+  /* ============================================
+     MODAL DE PROJETO — Saiba Mais
+  ============================================ */
+  const modalBackdrop = document.getElementById('projectModalBackdrop');
+  const modalClose    = document.getElementById('projectModalClose');
+
+  function openModal(btn) {
+    const d = btn.dataset;
+
+    document.getElementById('modalImg').src        = d.img;
+    document.getElementById('modalImg').alt        = d.title;
+    document.getElementById('modalCategory').textContent = d.category;
+    document.getElementById('modalTitle').textContent    = d.title;
+    document.getElementById('modalDesc').textContent     = d.desc;
+    document.getElementById('modalCtx').textContent      = d.ctx;
+    document.getElementById('modalProc').textContent     = d.proc;
+    document.getElementById('modalRes').textContent      = d.res;
+
+    const tagsEl = document.getElementById('modalTags');
+    tagsEl.innerHTML = d.tags.split(',').map(t =>
+      `<span class="project-tag">${t.trim()}</span>`
+    ).join('');
+
+    document.getElementById('modalCodeBtn').href = d.code;
+
+    modalBackdrop.classList.add('open');
+    modalBackdrop.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    modalBackdrop.classList.remove('open');
+    modalBackdrop.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.saiba-mais-btn').forEach(btn => {
+    btn.addEventListener('click', () => openModal(btn));
+  });
+
+  modalClose?.addEventListener('click', closeModal);
+
+  modalBackdrop?.addEventListener('click', (e) => {
+    if (e.target === modalBackdrop) closeModal();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+  });
+
   console.log('🌸 Portfólio Thauanne Luna — carregado com sucesso!');
 });
