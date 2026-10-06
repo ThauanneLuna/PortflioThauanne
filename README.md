@@ -1,275 +1,218 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=gradient&customColorList=24,30,33&section=header&text=Thauanne%20Luna&fontColor=ffffff&fontSize=42&animation=fadeIn"/>
-
 <div align="center">
 
-<img src="logo-tl.png" width="140"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=24,30,33&section=header&text=Thauanne%20Luna&fontColor=ffffff&fontSize=52&animation=fadeIn"/>
 
-# 🌸 Thauanne Luna 🌸
-
-### ✨ Design Gráfico • Branding • Front-end • Canva ✨
-
-<p>
-💻 Criando experiências visuais modernas, delicadas e profissionais.
-</p>
-
-<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&size=27&pause=1000&color=F8BBD0&center=true&vCenter=true&width=700&lines=Criatividade+que+encontra+a+tecnologia+💕;Design+com+identidade+e+delicadeza+✨;Front-end+%2B+Branding+%2B+Experiência+Visual+🌙" />
+<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&size=25&duration=3000&pause=1000&color=E8A7B8&center=true&vCenter=true&width=700&lines=Design+Gr%C3%A1fico+%E2%80%A2+Branding+%E2%80%A2+Front-end;Criatividade+%E2%80%A2+Tecnologia+%E2%80%A2+Identidade+Visual;Transformando+ideias+em+experi%C3%AAncias+digitais" alt="Typing SVG" />
 
 <br>
 
-<a href="https://thauanneluna.github.io">
-<img src="https://img.shields.io/badge/🌐_PORTFÓLIO-ff69b4?style=for-the-badge"/>
-</a>
+<img src="logo-tl.png" width="120">
 
-<a href="https://github.com/thauanneluna">
-<img src="https://img.shields.io/badge/GitHub-1f1f1f?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+### 🌸 Thauanne Luna
 
-<a href="https://www.linkedin.com/in/thauanne-luna-30b4833b5">
-<img src="https://img.shields.io/badge/LinkedIn-dc84f3?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+**Design Gráfico • Branding • Front-end • Canva**
 
-<a href="https://www.instagram.com/thauluna_acessorios">
-<img src="https://img.shields.io/badge/Instagram-ffc0cb?style=for-the-badge&logo=instagram&logoColor=white"/>
-</a>
+> ✦ Criatividade também é lógica, estrutura e funcionamento.  
+> ✦ Cada detalhe pode transformar uma ideia em experiência.
+
+<br>
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfólio-E8A7B8?style=for-the-badge&logoColor=white)](https://thauanneluna.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thauanneluna)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-BF8FA3?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thauanne-luna-30b4833b5)
+[![Instagram](https://img.shields.io/badge/Instagram-E8A7B8?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/thauluna_acessorios)
 
 </div>
 
 ---
 
-# 🌙 Sobre Mim
+# 🌷 Sobre Mim
 
-Olá! Me chamo **Thauanne Luna** e sou estudante de **Técnico em Informática** na  
-🎓 **EEEP Professora Luiza de Teodoro Vieira** — Pacatuba, Ceará.
+Olá! Eu sou **Thauanne Luna**, estudante de **Técnico em Informática** e apaixonada por **Design Gráfico, Branding, Front-end e criação digital**.
 
-Tenho paixão por:
+Gosto de transformar ideias em projetos que tenham **identidade, propósito e personalidade**, unindo o lado criativo do design com a lógica da tecnologia.
 
-- 🎨 Design Gráfico
-- 💕 Branding
-- ✨ Identidade Visual
-- 💻 Desenvolvimento Front-end
-- 🌸 Experiências visuais delicadas e modernas
+Para mim, criar é como entrar em um universo onde posso experimentar, construir e descobrir novas possibilidades.
 
-Este portfólio foi criado para reunir:
+> **“Criar um novo mundo, descobrir novos mares e desfrutar dos meus talentos.”**
 
-- 💼 Projetos
-- 📚 Conhecimentos
-- 🎓 Formação
-- 🚀 Evolução profissional
-- 💗 Minha identidade criativa
+📍 **EEEP Professora Luiza de Teodoro Vieira — Pacatuba, Ceará**
 
 ---
 
-# 💻 Tecnologias & Ferramentas
+# ✦ O que eu faço
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,javascript,github,vscode"/>
+| 🎨 Design | 💻 Front-end | ✨ Branding |
+|:---:|:---:|:---:|
+| Identidade visual | HTML & CSS | Conceito de marca |
+| Artes digitais | JavaScript | Paleta de cores |
+| Canva | Interfaces | Tipografia |
+| Materiais gráficos | Sites | Direção visual |
+
+</div>
+
+---
+
+# 🛠️ Tecnologias & Ferramentas
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode" />
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Canva-ff69b4?style=for-the-badge&logo=canva&logoColor=white"/>
-<img src="https://img.shields.io/badge/FlutterFlow-f8bbd0?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/GitHub%20Pages-dc84f3?style=for-the-badge"/>
+<img src="https://skillicons.dev/icons?i=figma,flutter,firebase" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Canva-E8A7B8?style=for-the-badge&logo=canva&logoColor=white" />
+<img src="https://img.shields.io/badge/FlutterFlow-BF8FA3?style=for-the-badge&logo=flutter&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white" />
 
 </div>
 
 ---
 
-# ✨ Funcionalidades do Portfólio
+# 🌙 Projetos em Destaque
 
-<div align="center">
+Projetos que representam diferentes lados da minha criatividade: **design, desenvolvimento, storytelling e identidade visual.**
 
-| 🌸 Recurso | 💖 Status |
-|---|---|
-| Splash Screen Animada | ✔️ |
-| Tema Claro/Escuro | ✔️ |
-| Menu Responsivo | ✔️ |
-| Cursor Personalizado | ✔️ |
-| Barra de Progresso | ✔️ |
-| Sessão de Projetos | ✔️ |
-| Download de Currículo | ✔️ |
-| Layout Moderno | ✔️ |
-| Responsividade Mobile | ✔️ |
+### 🌸 Thau Luna Acessórios
 
-</div>
+Uma experiência digital criada para apresentar a marca **Thau Luna Acessórios**, seus produtos personalizados e sua identidade delicada e criativa.
 
----
+**Conceito:**  
+Acessórios personalizados • Delicadeza • Criatividade • Afeto
 
-# 📂 Estrutura do Projeto
-
-```bash
-📁 portfolio
- ┣ 📄 index.html
- ┣ 📄 portfolio.css
- ┣ 📄 portfolio.js
- ┣ 📁 imagens
- ┣ 📄 Currículofoto.pdf
- ┣ 📄 Currículosemf.pdf
- ┗ 📄 README.md
-```
-
----
-
-# 🌸 Seções do Portfólio
-
-## 🏠 Home
-Apresentação profissional com identidade visual elegante e moderna.
-
-## 👩‍💻 Sobre Mim
-Trajetória, habilidades, objetivos e idiomas.
-
-## 📄 Currículos
-Versões para visualização e download.
-
-## 🎓 Formação Acadêmica
-Cursos, formação técnica e certificações.
-
-## 💼 Projetos
-Projetos de design, branding e desenvolvimento.
-
-## 📞 Contato
-Links rápidos para redes sociais e comunicação.
-
----
-
-# 🚀 Projetos Destacados
-
-## 🌙 Thau Luna Acessórios
-
-✨ Site institucional da marca própria de acessórios personalizados.
-
-🔗 **Site:**  
+🌐 **Site:**  
 https://thauanneluna.github.io/siteinstitucionalthauacessorios/
 
-🔗 **Código:**  
+💻 **GitHub:**  
 https://github.com/thauanneluna/siteinstitucionalthauacessorios
 
 ---
 
-## 🎁 World Perfect Personalizados
+### 🎁 World Perfect Personalizados
 
-✨ Loja virtual com foco em presentes criativos e personalizados.
+Projeto desenvolvido para explorar o universo de **personalização, presentes e criatividade**, utilizando uma identidade visual própria.
 
-🔗 **Site:**  
+**Conceito:**  
+Personalização • Presentes • Criatividade • Experiência
+
+🌐 **Site:**  
 https://thauanneluna.github.io/WorldPerfect/
 
-🔗 **Código:**  
+💻 **GitHub:**  
 https://github.com/thauanneluna
 
 ---
 
-## 🐺 Teen Wolf
+### 🌑 Teen Wolf — Beacon Hills
 
-✨ Projeto temático inspirado na série Teen Wolf.
+Projeto inspirado no universo de **Teen Wolf**, desenvolvido como uma experiência temática interativa.
 
-🔗 **Site:**  
+O projeto explora personagens, curiosidades, quizzes, mapa de Beacon Hills, elementos sobrenaturais e uma estética cinematográfica.
+
+**Conceito:**  
+Dark UI • Storytelling • Interatividade • Cultura pop
+
+🌐 **Site:**  
 https://thauanneluna.github.io/TeenWolf/
 
-🔗 **Código:**  
+💻 **GitHub:**  
 https://github.com/thauanneluna
 
 ---
 
-# 🌸 Sobre a Marca — Thau Luna Acessórios
+# 💗 Thau Luna
 
-A **Thau Luna Acessórios** nasceu em 2025 com o propósito de transformar pequenos detalhes em algo especial. 💕
+## Onde cada detalhe conta!
 
-Criamos acessórios delicados, criativos e cheios de significado, capazes de expressar:
+A **Thau Luna** nasceu como uma marca de acessórios personalizados e se tornou também um espaço para explorar criatividade, design e experiências digitais.
 
-- ✝️ Fé
-- 🌙 Identidade
-- 💖 Afeto
-- 🎀 Amizade
-- ✨ Personalidade
+### ✨ Produtos
 
-Mais do que acessórios, queremos entregar experiências encantadoras e cheias de carinho.
+- Pulseiras personalizadas
+- Pulseiras com nome ou inicial
+- Pulseiras de amizade
+- Chaveiros personalizados
+- Caixas personalizadas
+- Polaroids
+- Combos e presentes
+- Criações temáticas
 
----
+### 🎀 Temáticas
 
-# 🎯 Missão, Visão & Valores
+Disney • Stitch • Miraculous • Teen Wolf • Animes • Doramas • Filmes • Séries • Livros • Games • Datas comemorativas
 
-## 🎯 Missão
-
-Criar acessórios delicados e personalizados que permitam às pessoas expressarem sentimentos, identidade e estilo através de pequenos detalhes cheios de significado.
-
-## 🌙 Visão
-
-Ser reconhecida pela criatividade, autenticidade e delicadeza, levando experiências encantadoras para cada vez mais pessoas.
-
-## 💖 Valores
-
-- ✦ Carinho nos detalhes
-- ✦ Criatividade
-- ✦ Delicadeza
-- ✦ Significado
-- ✦ Autenticidade
+> **Muito mais que produtos, um pedacinho de carinho em cada criação.**
 
 ---
 
-# 🛍️ Produtos
+# 🖥️ TL Design
+
+A **TL Design** representa meu lado voltado para criação digital e identidade visual.
+
+### Serviços
+
+🎨 Identidade Visual  
+💻 Criação de Sites  
+🌐 Landing Pages  
+📱 Artes para Redes Sociais  
+✨ Materiais Digitais  
+🖌️ Design Gráfico  
+💗 Branding
+
+A ideia é unir **design + tecnologia + personalidade** para criar projetos que tenham significado.
+
+---
+
+# 📂 Estrutura do meu universo criativo
+
+```text
+Thauanne Luna
+│
+├── 🎨 Design Gráfico
+│   ├── Identidade Visual
+│   ├── Branding
+│   ├── Artes Digitais
+│   └── Canva
+│
+├── 💻 Desenvolvimento
+│   ├── HTML
+│   ├── CSS
+│   ├── JavaScript
+│   └── GitHub Pages
+│
+├── 🌸 Thau Luna
+│   ├── Acessórios
+│   ├── Personalizados
+│   ├── Caixas
+│   └── Presentes
+│
+└── ✦ TL Design
+    ├── Sites
+    ├── Landing Pages
+    ├── Identidade Visual
+    └── Design Digital
+```
+
+---
+
+# 💫 Habilidades
 
 <div align="center">
 
-| 🎀 Produto | ✨ Descrição |
-|---|---|
-| Pulseiras Personalizadas | Sem nome, inicial, com nome e BFF |
-| Phone Straps | Personalizados e estilosos |
-| Chaveiros | Spotify, foto, versículo e datas |
-| Box Surprise | Caixa surpresa encantadora |
-| Polaroids | Tradicional, mini e com imã |
-
-</div>
-
----
-
-# 🌷 Diferenciais
-
-<div align="center">
-
-| 💖 Diferencial | 🌸 Descrição |
-|---|---|
-| 🎀 Personalização | Produtos feitos especialmente para você |
-| 💻 Físico + Digital | Acessórios e produtos digitais |
-| ✨ Estética Encantadora | Inspirado em Disney, fé e amizade |
-| 💰 Preços Acessíveis | Produtos a partir de R$4,99 |
-| 🎁 Presentes Criativos | Kits e boxes especiais |
-| 🌙 Marca com Propósito | Muito além de acessórios |
-
-</div>
-
----
-
-# 💻 TL Design
-
-<div align="center">
-
-### ✨ Sites & Identidade Visual ✨
-
-</div>
-
-A **TL Design** cria projetos modernos, delicados e profissionais para marcas que desejam crescer online. 💕
-
-## 🌸 Serviços
-
-- 💻 Sites Institucionais
-- 🔗 Biolinks Personalizados
-- 🎨 Identidade Visual
-- 📱 Artes para redes sociais
-- ✨ Design criativo
-
----
-
-# 📊 Habilidades
-
-<div align="center">
-
-| 💻 Skill | 🌸 Nível |
-|---|---|
-| Design Gráfico | Avançando |
-| Canva | Avançando |
-| HTML & CSS | Intermediário |
-| Branding | Intermediário |
-| FlutterFlow | Básico |
+| Área | Habilidades |
+|:---|:---|
+| 🎨 **Design** | Design Gráfico, Canva, composição visual |
+| 🌸 **Branding** | Identidade Visual, cores, tipografia, conceito |
+| 💻 **Front-end** | HTML, CSS, JavaScript |
+| 🧩 **Ferramentas** | VS Code, GitHub, GitHub Pages |
+| 📱 **Interfaces** | FlutterFlow, prototipação e organização visual |
+| ✨ **Criatividade** | Conceituação, storytelling e direção visual |
 
 </div>
 
@@ -277,92 +220,48 @@ A **TL Design** cria projetos modernos, delicados e profissionais para marcas qu
 
 # 🌎 Idiomas
 
-<div align="center">
-
-| 🌍 Idioma | ✨ Nível |
-|---|---|
-| Português | Nativo |
-| Espanhol | Intermediário |
-| Inglês | Básico |
-
-</div>
+🇧🇷 **Português** — Nativo  
+🇺🇸 **Inglês** — Em aprendizado
 
 ---
 
-# 📈 GitHub Stats
+# 📊 GitHub
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=thauanneluna&show_icons=true&theme=rose_pine&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=thauanneluna&show_icons=true&theme=rose_pine&hide_border=true&count_private=true"/>
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thauanneluna&layout=compact&theme=rose_pine&hide_border=true"/>
 
-</div>
+<br><br>
 
----
-
-# 🌐 Links Oficiais
-
-<div align="center">
-
-| 🌸 Plataforma | 💗 Link |
-|---|---|
-| 🌐 Portfólio | https://thauanneluna.github.io |
-| 🛍️ Loja Oficial | https://thau-luna-acessorios.stoqui.shop |
-| 📸 Instagram | https://www.instagram.com/thauluna_acessorios |
-| 📌 Pinterest | https://www.pinterest.com/thaulunaacessorios |
-| 💼 LinkedIn | https://www.linkedin.com/in/thauanne-luna-30b4833b5 |
-| 💻 GitHub | https://github.com/thauanneluna |
-| 💬 WhatsApp | https://wa.me/5585987511775 |
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=thauanneluna&theme=rose_pine&hide_border=true"/>
 
 </div>
 
 ---
 
-# 🌸 Estética & Identidade
+# 🌷 Encontre-me
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Style-Coquette-ffc0cb?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Vibe-Soft%20Luxury-f8bbd0?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Theme-Feminine-dc84f3?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Design-Elegant-ff69b4?style=for-the-badge"/>
+### 🌐 Portfólio
+https://thauanneluna.github.io
 
-</div>
+### 💗 Thau Luna Acessórios
+https://thau-luna-acessorios.stoqui.shop
 
----
+### 📸 Instagram
+https://www.instagram.com/thauluna_acessorios
 
-# 📱 Contato
+### 📌 Pinterest
+https://www.pinterest.com/thau_luna_acessorios
 
-<div align="center">
+### 💼 LinkedIn
+https://www.linkedin.com/in/thauanne-luna-30b4833b5
 
-<a href="https://wa.me/5585987511775">
-<img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-</a>
-
-<a href="https://github.com/thauanneluna">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/thauanne-luna-30b4833b5">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://www.instagram.com/thauluna_acessorios">
-<img src="https://img.shields.io/badge/Instagram-ff69b4?style=for-the-badge&logo=instagram&logoColor=white"/>
-</a>
-
-</div>
-
----
-
-# 💕 Créditos
-
-<div align="center">
-
-### Desenvolvido com carinho por Thauanne Luna 🌸
-
-> ✨ “Criatividade que encontra a tecnologia.”
+### 💻 GitHub
+https://github.com/thauanneluna
 
 </div>
 
@@ -370,10 +269,19 @@ A **TL Design** cria projetos modernos, delicados e profissionais para marcas qu
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=gradient&customColorList=24,30,33"/>
+### ✦ Meu universo criativo
 
-### © 2026 Thauanne Luna
+<img src="https://img.shields.io/badge/Coquette-E8A7B8?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Soft%20Luxury-F5DDE2?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Feminine-E8B6C1?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Elegant-D8B4BE?style=for-the-badge" />
 
-💗 Todos os direitos reservados.
+<br><br>
+
+> **Design é transformar ideias em algo que pode ser visto, sentido e lembrado.**
+
+<br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=24,30,33&section=footer"/>
 
 </div>
