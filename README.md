@@ -148,7 +148,7 @@ O projeto representa uma parte mais experimental do meu trabalho, explorando com
 📖 Livros • ✦ Storytelling • 🌙 Atmosfera • 💻 Experiência Digital
 
 🌐 **Projeto:**  
-https://thauanneluna.github.io/LunasLibrary/
+https://thauanneluna.github.io/Lunas_Library/
 
 💻 **GitHub:**  
 https://github.com/thauanneluna
@@ -369,7 +369,7 @@ https://thaulunastudio.lovable.app/
 
 ### 📚 Luna's Library
 
-https://thauanneluna.github.io/LunasLibrary/
+https://thauanneluna.github.io/Lunas_Library/
 
 ### 💻 GitHub
 
