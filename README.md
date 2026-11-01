@@ -6,7 +6,7 @@
 
 <br>
 
-<img src="./logo-tl.png" width="120" alt="Thauanne Luna Logo">
+<img src="assets/img/logo-tl.png" width="120" alt="Thauanne Luna Logo">
 
 <br>
 
