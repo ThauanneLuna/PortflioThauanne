@@ -193,19 +193,6 @@
       cert: { img: "assets/img/certs/atendimento-cliente.jpg", code: "69e93cca1dc4e85b7a44d1d1" }
     },
     {
-      title: "Comunicação Empresarial",
-      short: "Comunicação Empresarial",
-      inst: "Fundação Bradesco", date: "07/03/2026", dateShort: "Mar 2026", hours: null,
-      summary: "Formação em comunicação profissional, voltada à postura e ao posicionamento no ambiente empresarial.",
-      learn: [
-        "Técnicas de comunicação profissional",
-        "Postura corporativa",
-        "Posicionamento estratégico no ambiente empresarial"
-      ],
-      tags: ["Comunicação", "Postura profissional"],
-      cert: null, emptyText: "Certificado em breve."
-    },
-    {
       title: "Fundamentos do Design Gráfico",
       short: "Fundamentos do Design Gráfico",
       inst: "Fundação Bradesco · Escola Virtual", date: "29/11/2025", dateShort: "Nov 2025", hours: 6,
@@ -219,21 +206,9 @@
       cert: { img: "assets/img/certs/fundamentos-design.jpg", code: "57E666CA-294D-4F57-B53C-FF10064D1D1E" }
     },
     {
-      title: "Fábrica de Programadores",
-      short: "Fábrica de Programadores",
-      inst: "UANE", date: "28/11/2025", dateShort: "Nov 2025", hours: null,
-      summary: "Formação em programação visual e uso de inteligência artificial para criar jogos e aplicativos interativos.",
-      learn: [
-        "Programação visual",
-        "Uso de IA na criação de jogos e aplicativos interativos"
-      ],
-      tags: ["Programação", "IA", "Aplicativos"],
-      cert: null, emptyText: "Certificado em breve."
-    },
-    {
       title: "Técnico em Informática",
       short: "Técnico em Informática",
-      inst: "EEEP Prof.ª Luiza de Teodoro Vieira", date: "Em andamento", dateShort: "Em curso", hours: null,
+      inst: "EEEP Prof.ª Luiza de Teodoro Vieira", date: "Em andamento", dateShort: "Em breve", hours: null,
       summary: "Curso técnico integrado ao ensino médio, com foco em tecnologia aplicada.",
       learn: [
         "Redes",
@@ -241,7 +216,7 @@
         "Design de interfaces"
       ],
       tags: ["Informática", "Programação", "Redes"],
-      cert: null, emptyText: "Curso em andamento. O certificado será adicionado após a conclusão."
+      cert: null, emptyText: "Certificado em breve."
     }
   ];
 
