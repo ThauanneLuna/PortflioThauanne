@@ -358,6 +358,12 @@
     if (lastRoute !== null) scrollPositions[lastRoute] = window.scrollY;
 
     pages.forEach(function (p) { p.hidden = (p !== page); });
+
+    // Imagens "lazy" de páginas que estavam escondidas às vezes só carregam após um refresh
+    // (principalmente em celulares). Ao abrir a página, forçamos o carregamento.
+    $all('img[loading="lazy"]', page).forEach(function (img) {
+      if (!img.complete) img.loading = "eager";
+    });
     navLinks.forEach(function (a) {
       if (a.getAttribute("data-route") === key) a.setAttribute("aria-current", "page");
       else a.removeAttribute("aria-current");
@@ -787,6 +793,19 @@
     certDialog.addEventListener("click", function (e) { if (e.target === certDialog) closeCert(); });
   }
   if (certClose) certClose.addEventListener("click", closeCert);
+
+  // Se a imagem do certificado não carregar, mostra um aviso em vez de um espaço vazio
+  if (certList) {
+    certList.addEventListener("error", function (e) {
+      var img = e.target;
+      if (!img || img.tagName !== "IMG") return;
+      var media = img.closest(".cert-media");
+      if (!media) return;
+      if (window.console) console.warn("Imagem do certificado não encontrada:", img.getAttribute("src"));
+      media.classList.add("cert-media-empty");
+      media.innerHTML = icon("award") + "<p>Imagem do certificado indisponível no momento.</p>";
+    }, true);
+  }
 
   // Dificulta salvar a imagem (botão direito, arrastar). Não impede capturas de tela.
   [certList, certDialog].forEach(function (el) {
