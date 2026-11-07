@@ -390,7 +390,8 @@ html.splash-done .splash { display: none; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 0.75rem; padding-top: 0.5rem; margin-top: 1.5rem; }
 
 .hero-photo-wrap { display: flex; justify-content: center; }
-.hero-photo { position: relative; }
+/* isolation: mantém o brilho (z-index negativo) dentro do bloco, em vez de sumir atrás do fundo da seção */
+.hero-photo { position: relative; isolation: isolate; max-width: 100%; }
 .hero-glow {
   position: absolute; inset: -1.5rem; z-index: -10; border-radius: 9999px;
   background: linear-gradient(to bottom right, color-mix(in srgb, var(--primary) 25%, transparent), var(--secondary), color-mix(in srgb, var(--accent) 20%, transparent));
@@ -406,7 +407,7 @@ html.splash-done .splash { display: none; }
   border-radius: 9999px; background: var(--secondary);
 }
 .hero-img {
-  position: relative; height: 20rem; width: 20rem; border-radius: 9999px;
+  position: relative; height: auto; width: min(20rem, 100%); aspect-ratio: 1 / 1; border-radius: 9999px;
   object-fit: cover; object-position: 50% 28%;
   box-shadow: 0 0 0 4px var(--background), 0 25px 50px -12px color-mix(in oklab, var(--primary) 20%, transparent);
 }
@@ -575,7 +576,7 @@ html.splash-done .splash { display: none; }
   .hero-hello { font-size: 2.25rem; line-height: 1.1111; }
   .hero-title { font-size: 3.75rem; }
   .hero-sub { font-size: 1.5rem; line-height: 1.3333; }
-  .hero-img { height: 22rem; width: 22rem; }
+  .hero-img { width: 22rem; }
   .h-xl-italic { font-size: 3rem; line-height: 1; }
   .h-xl-italic.leading-tight { line-height: 1.25; }
   .case-title { font-size: 3.75rem; }
@@ -626,7 +627,7 @@ html.splash-done .splash { display: none; }
   transition: color 0.15s var(--ease), background-color 0.15s var(--ease);
 }
 .about-photo-wrap { order: 1; display: flex; justify-content: center; }
-.about-photo { position: relative; }
+.about-photo { position: relative; isolation: isolate; max-width: 100%; }
 .about-glow {
   position: absolute; inset: -0.75rem; z-index: -10; border-radius: 9999px;
   background: linear-gradient(to bottom right, color-mix(in srgb, var(--primary) 20%, transparent), color-mix(in srgb, var(--accent) 20%, transparent));
@@ -634,13 +635,14 @@ html.splash-done .splash { display: none; }
   filter: blur(40px);
 }
 .about-img {
-  height: 20rem; width: 20rem; border-radius: 1.5rem; object-fit: cover; object-position: 50% 28%;
+  width: min(20rem, 100%); aspect-ratio: 1 / 1; height: auto; border-radius: 1.5rem; object-fit: cover; object-position: 50% 28%;
   box-shadow: 0 0 0 1px var(--border), 0 25px 50px -12px color-mix(in oklab, var(--primary) 10%, transparent);
 }
 
 .block-gap { margin-top: 6rem; }
 .section-header { margin-bottom: 3rem; text-align: center; }
 .section-header-left { text-align: left; }
+.section-header h1,
 .section-header h2 {
   font-family: var(--font-display); font-size: 1.875rem; line-height: 1.2; font-weight: 600;
   letter-spacing: -0.025em; color: var(--foreground);
@@ -838,7 +840,7 @@ html.splash-done .splash { display: none; }
 @media (min-width: 40rem) {
   .inner-page { padding-inline: 1.5rem; }
   .page-title { font-size: 3.75rem; }
-  .section-header h2 { font-size: 2.25rem; line-height: 1.1111; }
+  .section-header h1, .section-header h2 { font-size: 2.25rem; line-height: 1.1111; }
   .skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .edu { flex-direction: row; align-items: flex-start; }
   .contact-page { padding-inline: 1.5rem; }
@@ -1014,8 +1016,10 @@ body.dialog-open { overflow: hidden; }
 .dialog-content > * + * { margin-top: 1.5rem; }
 @media (min-width: 40rem) { .dialog-content { padding: 2rem; } }
 
+/* Botão fica fixo no topo ao rolar o diálogo (antes sumia junto com a imagem de capa) */
 .dialog-close {
-  position: absolute; right: 1rem; top: 1rem; display: flex; align-items: center; justify-content: center;
+  position: sticky; top: 0.75rem; z-index: 5; margin: 0.75rem 0.75rem -2.75rem auto;
+  display: flex; align-items: center; justify-content: center;
   height: 2rem; width: 2rem; border-radius: 9999px; opacity: 0.85;
   /* Fundo suave para o X continuar visível sobre a imagem de capa nos dois temas */
   background: color-mix(in oklab, var(--background) 90%, transparent);
@@ -1147,6 +1151,114 @@ body.dialog-open { overflow: hidden; }
   .copy-btn:hover { background: var(--muted); color: var(--foreground); }
   .footer-social a:hover { border-color: var(--primary); color: var(--primary); }
   .dialog-close:hover { opacity: 1; }
+}
+
+/* ============================================================
+   13b. Certificados
+   ============================================================ */
+.cert-stats { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; margin-top: 2rem; }
+.cert-stat {
+  display: inline-flex; align-items: baseline; gap: 0.5rem; border-radius: 9999px;
+  border: 1px solid var(--border); background: var(--card); padding: 0.5rem 1.1rem;
+  font-size: 0.875rem; color: var(--muted-foreground);
+}
+.cert-stat strong { font-family: var(--font-display); font-size: 1.5rem; line-height: 1; color: var(--primary); font-weight: 600; }
+
+.cert-list { display: grid; gap: 2rem; grid-template-columns: minmax(0, 1fr); }
+.cert-card {
+  display: grid; grid-template-columns: minmax(0, 1fr); overflow: hidden;
+  border-radius: 1.5rem; border: 1px solid var(--border); background: var(--card);
+  transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease);
+}
+.cert-media {
+  position: relative; display: block; width: 100%; background: var(--muted);
+  border-bottom: 1px solid var(--border); padding: 1rem; cursor: zoom-in;
+}
+.cert-media img {
+  width: 100%; height: auto; border-radius: calc(var(--radius) - 4px);
+  border: 1px solid var(--border); background: #fff;
+  box-shadow: 0 10px 25px -12px rgb(0 0 0 / 0.25);
+}
+.cert-zoom {
+  position: absolute; right: 1.75rem; bottom: 1.75rem; display: inline-flex; align-items: center; gap: 0.4rem;
+  border-radius: 9999px; padding: 0.35rem 0.75rem; font-size: 0.75rem; font-weight: 500;
+  background: color-mix(in oklab, var(--background) 90%, transparent); color: var(--foreground);
+  -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);
+}
+.cert-media-empty {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.75rem;
+  min-height: 12rem; padding: 2rem; text-align: center; cursor: default;
+  color: var(--muted-foreground); border-bottom: 1px solid var(--border);
+  background: color-mix(in oklab, var(--secondary) 35%, transparent);
+}
+.cert-media-empty .icon { width: 2.25rem; height: 2.25rem; color: var(--primary); opacity: 0.7; }
+.cert-media-empty p { font-size: 0.875rem; max-width: 16rem; }
+
+.cert-body { display: flex; flex-direction: column; gap: 1rem; padding: 1.5rem; }
+.cert-inst {
+  font-size: 0.75rem; line-height: 1.3333; font-weight: 500; text-transform: uppercase;
+  letter-spacing: 0.25em; color: var(--primary);
+}
+.cert-title {
+  font-family: var(--font-display); font-size: 1.75rem; line-height: 1.15; font-style: italic;
+  color: var(--card-foreground);
+}
+.cert-meta { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.cert-pill {
+  display: inline-flex; align-items: center; gap: 0.4rem; border-radius: 9999px;
+  border: 1px solid color-mix(in oklab, var(--primary) 25%, transparent);
+  background: color-mix(in oklab, var(--primary) 6%, transparent);
+  padding: 0.25rem 0.75rem; font-size: 0.8125rem; line-height: 1.3; color: var(--foreground);
+}
+.cert-summary { line-height: 1.625; color: var(--muted-foreground); }
+.cert-learn h4 {
+  font-family: var(--font-display); font-size: 1.25rem; line-height: 1.4; font-style: italic; color: var(--primary);
+}
+.cert-learn ul { margin-top: 0.5rem; display: grid; gap: 0.5rem; font-size: 0.9375rem; line-height: 1.5; color: var(--muted-foreground); }
+.cert-learn li { display: flex; gap: 0.5rem; }
+.cert-learn li span { color: var(--accent); flex-shrink: 0; }
+.cert-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: auto; padding-top: 0.5rem; }
+.cert-actions .resume-btn { flex: 0 1 auto; min-height: 2.75rem; padding-inline: 1.25rem; }
+.cert-auth { font-size: 0.75rem; line-height: 1.4; color: var(--muted-foreground); word-break: break-all; }
+.cert-note {
+  margin-top: 2.5rem; border-radius: var(--radius); border: 1px dashed var(--border);
+  padding: 1.25rem 1.5rem; text-align: center; font-size: 0.875rem; color: var(--muted-foreground);
+}
+
+/* Visualizador de certificado (<dialog>) */
+.dialog-wide { max-width: 64rem; }
+.cert-viewer-img { width: 100%; height: auto; background: #fff; }
+.cert-viewer-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 1rem 1.25rem; }
+.cert-viewer-foot p { font-family: var(--font-display); font-size: 1.125rem; font-style: italic; }
+.cert-viewer-foot .resume-btn { flex: 0 1 auto; padding-inline: 1.25rem; }
+
+/* Proteção leve: sem seleção/arraste e sem impressão das imagens dos certificados */
+.cert-media img, .cert-viewer-img {
+  -webkit-user-select: none; user-select: none; -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+}
+.cert-view-only {
+  font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--muted-foreground);
+}
+@media print {
+  .cert-media img, .cert-viewer-img { display: none !important; }
+  #cert-list::before { content: "Certificados disponíveis apenas para visualização no site."; display: block; padding: 1rem; }
+}
+
+/* Cursos na página inicial: agora são links */
+a.course { display: block; }
+.course-hours { margin-top: 0.5rem; font-size: 0.75rem; color: var(--muted-foreground); }
+
+@media (min-width: 48rem) {
+  .cert-card { grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr); }
+  .cert-card.no-cert { grid-template-columns: minmax(0, 0.55fr) minmax(0, 1.45fr); }
+  .cert-media { border-bottom: 0; border-right: 1px solid var(--border); display: flex; align-items: center; }
+  .cert-media-empty { border-bottom: 0; border-right: 1px solid var(--border); }
+  .cert-body { padding: 2rem; }
+}
+@media (hover: hover) {
+  .cert-card:hover { border-color: color-mix(in oklab, var(--primary) 35%, transparent); box-shadow: 0 20px 25px -5px color-mix(in oklab, var(--primary) 6%, transparent); }
+  a.course:hover { transform: translateY(-0.25rem); border-color: color-mix(in oklab, var(--primary) 40%, transparent); box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1); }
 }
 
 /* ============================================================

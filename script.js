@@ -9,7 +9,10 @@
  *   5. Filtro de projetos por categoria + janela de detalhes
  *   6. Copiar e-mail e formulário de orçamento (abre o WhatsApp)
  *
- * Para editar os projetos, altere apenas o array PROJECTS abaixo.
+ *   7. Certificados e cursos (página #/certificados + seção da home)
+ *
+ * Para editar os projetos, altere o array PROJECTS abaixo.
+ * Para editar cursos e certificados, altere o array COURSES.
  */
 (function () {
   "use strict";
@@ -142,6 +145,107 @@
   ];
 
   /* ------------------------------------------------------------------
+     Dados dos cursos e certificados
+     Os PDFs originais NÃO ficam no site (ficam só com você). Para adicionar
+     um certificado novo: gere uma imagem com marca d'água em
+     "assets/img/certs/" e preencha o campo "cert" do curso.
+     ------------------------------------------------------------------ */
+  var COURSES = [
+    {
+      title: "Marketing Digital: Estratégias e Práticas para Conquistar Clientes",
+      short: "Marketing Digital",
+      inst: "Sebrae", date: "22 a 23/04/2026", dateShort: "Abr 2026", hours: 8,
+      summary: "Curso do Sebrae sobre como atrair, engajar e converter clientes no ambiente digital, passando pelo comportamento do consumidor on-line, pela visibilidade nas buscas e pela construção de páginas que vendem.",
+      learn: [
+        "Estratégias de marketing pensadas para o consumidor digital",
+        "Inbound marketing e otimização para mecanismos de busca, para ser encontrada por quem já procura o que ofereço",
+        "Copywriting e storytelling para comunicar com mais engajamento",
+        "Conversão: como landing pages e ferramentas de criação ajudam a transformar visitas em clientes"
+      ],
+      tags: ["Marketing digital", "Inbound", "Copywriting", "Landing pages"],
+      cert: { img: "assets/img/certs/marketing-digital.jpg", code: "69ea62c3499e2737a4c19438" }
+    },
+    {
+      title: "Neuromarketing",
+      short: "Neuromarketing",
+      inst: "Sebrae", date: "22/04/2026", dateShort: "Abr 2026", hours: 12,
+      summary: "Introdução ao neuromarketing: como o cérebro reage a estímulos de comunicação e de venda, e de que forma isso pode ser usado de maneira prática para entender melhor a decisão de compra.",
+      learn: [
+        "Fundamentos do neuromarketing e da relação entre emoção, atenção e decisão de compra",
+        "Aplicação prática dos conceitos em comunicação, apresentação de produtos e experiência do cliente",
+        "Um olhar mais estratégico para escolhas visuais, como imagem, texto e organização da informação"
+      ],
+      tags: ["Comportamento do consumidor", "Comunicação", "Vendas"],
+      cert: { img: "assets/img/certs/neuromarketing.jpg", code: "69e94ffe0a385c5cd6bd1907" }
+    },
+    {
+      title: "Atendimento ao Cliente",
+      short: "Atendimento ao Cliente",
+      inst: "Sebrae", date: "22/04/2026", dateShort: "Abr 2026", hours: 8,
+      summary: "Curso do Sebrae sobre a base de um bom atendimento: como conquistar a satisfação do cliente, agregar valor ao negócio, fidelizar e cuidar do relacionamento, inclusive no ambiente on-line.",
+      learn: [
+        "A base do atendimento ao cliente e o que gera satisfação",
+        "Valor agregado ao negócio e estratégias de fidelização",
+        "Gerenciamento do relacionamento com o cliente",
+        "Oportunidades de atendimento e de venda no mundo on-line"
+      ],
+      tags: ["Atendimento", "Fidelização", "Relacionamento"],
+      cert: { img: "assets/img/certs/atendimento-cliente.jpg", code: "69e93cca1dc4e85b7a44d1d1" }
+    },
+    {
+      title: "Comunicação Empresarial",
+      short: "Comunicação Empresarial",
+      inst: "Fundação Bradesco", date: "07/03/2026", dateShort: "Mar 2026", hours: null,
+      summary: "Formação em comunicação profissional, voltada à postura e ao posicionamento no ambiente empresarial.",
+      learn: [
+        "Técnicas de comunicação profissional",
+        "Postura corporativa",
+        "Posicionamento estratégico no ambiente empresarial"
+      ],
+      tags: ["Comunicação", "Postura profissional"],
+      cert: null, emptyText: "Certificado em breve."
+    },
+    {
+      title: "Fundamentos do Design Gráfico",
+      short: "Fundamentos do Design Gráfico",
+      inst: "Fundação Bradesco · Escola Virtual", date: "29/11/2025", dateShort: "Nov 2025", hours: 6,
+      summary: "Curso autoinstrucional da Escola Virtual da Fundação Bradesco com a base do design gráfico, o ponto de partida da minha formação visual.",
+      learn: [
+        "Composição visual: como organizar elementos para guiar o olhar",
+        "Tipografia e seu papel na comunicação",
+        "Princípios do design moderno"
+      ],
+      tags: ["Design gráfico", "Composição", "Tipografia"],
+      cert: { img: "assets/img/certs/fundamentos-design.jpg", code: "57E666CA-294D-4F57-B53C-FF10064D1D1E" }
+    },
+    {
+      title: "Fábrica de Programadores",
+      short: "Fábrica de Programadores",
+      inst: "UANE", date: "28/11/2025", dateShort: "Nov 2025", hours: null,
+      summary: "Formação em programação visual e uso de inteligência artificial para criar jogos e aplicativos interativos.",
+      learn: [
+        "Programação visual",
+        "Uso de IA na criação de jogos e aplicativos interativos"
+      ],
+      tags: ["Programação", "IA", "Aplicativos"],
+      cert: null, emptyText: "Certificado em breve."
+    },
+    {
+      title: "Técnico em Informática",
+      short: "Técnico em Informática",
+      inst: "EEEP Prof.ª Luiza de Teodoro Vieira", date: "Em andamento", dateShort: "Em curso", hours: null,
+      summary: "Curso técnico integrado ao ensino médio, com foco em tecnologia aplicada.",
+      learn: [
+        "Redes",
+        "Programação",
+        "Design de interfaces"
+      ],
+      tags: ["Informática", "Programação", "Redes"],
+      cert: null, emptyText: "Curso em andamento. O certificado será adicionado após a conclusão."
+    }
+  ];
+
+  /* ------------------------------------------------------------------
      1. Tema claro / escuro
      ------------------------------------------------------------------ */
   var THEME_KEY = "thau-luna-theme";
@@ -269,6 +373,12 @@
     var y = 0;
     if (!pushNavigation && lastRoute !== null && scrollPositions[key] != null) y = scrollPositions[key];
     jumpTo(y);
+
+    // Ao navegar por link, leva o foco ao conteúdo (leitores de tela anunciam a nova página)
+    if (pushNavigation) {
+      var main = $("#conteudo");
+      if (main) main.focus({ preventScroll: true });
+    }
     pushNavigation = false;
     lastRoute = key;
   }
@@ -569,6 +679,131 @@
       var text = "Olá, Thauanne! Meu nome é " + data.name + ".\nServiço: " + data.service + "\n\n" + data.message;
       var url = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(text);
       window.open(url, "_blank", "noopener,noreferrer");
+    });
+  }
+
+  /* ------------------------------------------------------------------
+     6b. Certificados: cartões, cursos na home e visualizador
+     ------------------------------------------------------------------ */
+  function hoursLabel(c) { return c.hours ? c.hours + " horas" : ""; }
+
+  function certCardHTML(c, index) {
+    var media;
+    if (c.cert) {
+      media = '<button type="button" class="cert-media" data-cert="' + index + '" aria-label="Ampliar certificado: ' + esc(c.short) + '">' +
+        '<img src="' + esc(c.cert.img) + '" alt="Certificado do curso ' + esc(c.short) + ', ' + esc(c.inst) + '" loading="lazy" draggable="false">' +
+        '<span class="cert-zoom">' + icon("plus") + " Ampliar</span></button>";
+    } else {
+      media = '<div class="cert-media-empty">' + icon("award") + "<p>" + esc(c.emptyText || "Certificado em breve.") + "</p></div>";
+    }
+
+    var pills = '<span class="cert-pill">' + icon("graduation-cap") + esc(c.date) + "</span>";
+    if (c.hours) pills += '<span class="cert-pill">' + icon("award") + esc(hoursLabel(c)) + "</span>";
+
+    var learn = c.learn.map(function (l) { return "<li><span>✦</span>" + esc(l) + "</li>"; }).join("");
+    var tags = c.tags.map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("");
+
+    var actions = "";
+    if (c.cert) {
+      var ask = "Olá, Thauanne! Gostaria de solicitar uma cópia do certificado: " + c.title + " (" + c.inst + ").";
+      actions = '<div class="cert-actions">' +
+        '<button type="button" class="resume-btn resume-btn-outline" data-cert="' + index + '">' + icon("plus") + "Ampliar</button>" +
+        '<a class="resume-btn resume-btn-primary" href="https://wa.me/' + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(ask) + '" target="_blank" rel="noopener noreferrer">' + icon("message-circle") + "Solicitar cópia</a></div>" +
+        '<p class="cert-auth">Código de autenticação: ' + esc(c.cert.code) + "</p>";
+    }
+
+    return '<article class="cert-card' + (c.cert ? "" : " no-cert") + '">' + media +
+      '<div class="cert-body">' +
+        '<p class="cert-inst">' + esc(c.inst) + "</p>" +
+        '<h2 class="cert-title">' + esc(c.title) + "</h2>" +
+        '<div class="cert-meta">' + pills + "</div>" +
+        '<p class="cert-summary">' + esc(c.summary) + "</p>" +
+        '<div class="cert-learn"><h4>O que vi no curso</h4><ul>' + learn + "</ul></div>" +
+        '<div class="cert-meta">' + tags + "</div>" +
+        actions +
+      "</div></article>";
+  }
+
+  var certList = $("#cert-list");
+  if (certList) {
+    certList.innerHTML = COURSES.map(certCardHTML).join("");
+
+    var statsEl = $("#cert-stats");
+    if (statsEl) {
+      var withCert = COURSES.filter(function (c) { return c.cert; });
+      var totalHours = withCert.reduce(function (sum, c) { return sum + (c.hours || 0); }, 0);
+      statsEl.innerHTML =
+        '<span class="cert-stat"><strong>' + withCert.length + "</strong> certificados</span>" +
+        '<span class="cert-stat"><strong>' + totalHours + "h</strong> de cursos certificados</span>" +
+        '<span class="cert-stat"><strong>' + COURSES.length + "</strong> formações no total</span>";
+    }
+  }
+
+  var homeCourses = $("#home-courses");
+  if (homeCourses) {
+    homeCourses.innerHTML = COURSES.map(function (c) {
+      return '<a href="#/certificados" data-link class="course group">' +
+        '<div class="course-icon">' + icon("award") + "</div>" +
+        "<h3>" + esc(c.short) + "</h3>" +
+        '<p class="course-inst">' + esc(c.inst) + "</p>" +
+        '<p class="course-date">' + esc(c.dateShort) + (c.hours ? " · " + esc(hoursLabel(c)) : "") + "</p></a>";
+    }).join("");
+  }
+
+  /* --- Visualizador de certificado (<dialog>) --- */
+  var certDialog = $("#cert-dialog");
+  var certBody = $("#cert-body");
+  var certClose = $("#cert-close");
+  var certClosing = false;
+
+  function openCert(course) {
+    if (!certDialog || !certBody || !course.cert) return;
+    if (typeof certDialog.showModal !== "function") return;
+    certBody.innerHTML =
+      '<img class="cert-viewer-img" src="' + esc(course.cert.img) + '" alt="Certificado do curso ' + esc(course.short) + '" draggable="false">' +
+      '<div class="cert-viewer-foot"><p>' + esc(course.short) + " · " + esc(course.inst) + "</p>" +
+      '<span class="cert-view-only">Somente visualização</span></div>';
+    certDialog.scrollTop = 0;
+    certClosing = false;
+    certDialog.classList.remove("is-closing");
+    lockScroll();
+    certDialog.showModal();
+  }
+
+  function closeCert() {
+    if (!certDialog || !certDialog.open || certClosing) return;
+    certClosing = true;
+    certDialog.classList.add("is-closing");
+    setTimeout(function () {
+      certDialog.close();
+      certDialog.classList.remove("is-closing");
+      certClosing = false;
+    }, reducedMotion() ? 0 : 180);
+  }
+
+  if (certDialog) {
+    certDialog.addEventListener("close", unlockScroll);
+    certDialog.addEventListener("cancel", function (e) { e.preventDefault(); closeCert(); });
+    certDialog.addEventListener("click", function (e) { if (e.target === certDialog) closeCert(); });
+  }
+  if (certClose) certClose.addEventListener("click", closeCert);
+
+  // Dificulta salvar a imagem (botão direito, arrastar). Não impede capturas de tela.
+  [certList, certDialog].forEach(function (el) {
+    if (!el) return;
+    el.addEventListener("contextmenu", function (e) {
+      if (e.target.tagName === "IMG") e.preventDefault();
+    });
+    el.addEventListener("dragstart", function (e) {
+      if (e.target.tagName === "IMG") e.preventDefault();
+    });
+  });
+  if (certList) {
+    certList.addEventListener("click", function (e) {
+      var btn = e.target.closest("[data-cert]");
+      if (!btn) return;
+      var course = COURSES[Number(btn.getAttribute("data-cert"))];
+      if (course) openCert(course);
     });
   }
 

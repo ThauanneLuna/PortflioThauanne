@@ -106,6 +106,7 @@
         <a href="#/" data-link data-route="/">Início</a>
         <a href="#/sobre" data-link data-route="/sobre">Sobre</a>
         <a href="#/projetos" data-link data-route="/projetos">Case</a>
+        <a href="#/certificados" data-link data-route="/certificados">Certificados</a>
         <a href="#/servicos" data-link data-route="/servicos">Serviços</a>
         <a href="#/contato" data-link data-route="/contato">Contato</a>
       </nav>
@@ -127,6 +128,7 @@
         <a href="#/" data-link data-route="/">Início</a>
         <a href="#/sobre" data-link data-route="/sobre">Sobre</a>
         <a href="#/projetos" data-link data-route="/projetos">Case</a>
+        <a href="#/certificados" data-link data-route="/certificados">Certificados</a>
         <a href="#/servicos" data-link data-route="/servicos">Serviços</a>
         <a href="#/contato" data-link data-route="/contato">Contato</a>
       </nav>
@@ -328,31 +330,14 @@
               <p class="sec-head-note">Certificações e formações que reforçam a base técnica e criativa do meu trabalho.</p>
             </div>
 
-            <div class="grid-4 gap-4">
-              <div class="course group">
-                <div class="course-icon"><svg class="icon icon-5" aria-hidden="true"><use href="#i-award"/></svg></div>
-                <h3>Fábrica de Programadores</h3>
-                <p class="course-inst">UANE</p>
-                <p class="course-date">Nov 2025</p>
-              </div>
-              <div class="course group">
-                <div class="course-icon"><svg class="icon icon-5" aria-hidden="true"><use href="#i-award"/></svg></div>
-                <h3>Fundamentos de Design Gráfico</h3>
-                <p class="course-inst">Fundação Bradesco</p>
-                <p class="course-date">Nov 2025</p>
-              </div>
-              <div class="course group">
-                <div class="course-icon"><svg class="icon icon-5" aria-hidden="true"><use href="#i-award"/></svg></div>
-                <h3>Comunicação Empresarial</h3>
-                <p class="course-inst">Fundação Bradesco</p>
-                <p class="course-date">Mar 2026</p>
-              </div>
-              <div class="course group">
-                <div class="course-icon"><svg class="icon icon-5" aria-hidden="true"><use href="#i-award"/></svg></div>
-                <h3>Técnico em Informática</h3>
-                <p class="course-inst">EEEP Luiza de Teodoro Vieira</p>
-                <p class="course-date">Em curso</p>
-              </div>
+            <!-- Preenchido por script.js a partir do array COURSES -->
+            <div class="grid-4 gap-4" id="home-courses"></div>
+
+            <div class="center-link">
+              <a href="#/certificados" data-link class="text-link">
+                Ver certificados e o que aprendi em cada curso
+                <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+              </a>
             </div>
           </div>
         </section>
@@ -595,7 +580,7 @@
               <div class="edu">
                 <div class="edu-icon"><svg class="icon icon-6" aria-hidden="true"><use href="#i-award"/></svg></div>
                 <div>
-                  <h3>Fundamentos de Design Gráfico</h3>
+                  <h3>Fundamentos do Design Gráfico</h3>
                   <p class="edu-inst">Fundação Bradesco</p>
                   <p class="edu-status">Concluído: 29/11/2025</p>
                   <p class="edu-desc">Composição visual, tipografia e princípios do design moderno.</p>
@@ -610,6 +595,12 @@
                   <p class="edu-desc">Técnicas de comunicação profissional, postura corporativa e posicionamento estratégico no ambiente empresarial.</p>
                 </div>
               </div>
+            </div>
+            <div class="center-link">
+              <a href="#/certificados" data-link class="text-link">
+                Ver todos os certificados, inclusive os cursos do Sebrae
+                <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+              </a>
             </div>
           </section>
         </div>
@@ -632,6 +623,28 @@
 
           <div id="project-results" role="tabpanel" aria-live="polite"></div>
           <noscript><div class="empty-state">Ative o JavaScript para navegar pelos projetos e ver os detalhes de cada estudo de caso.</div></noscript>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== CERTIFICADOS ===================== -->
+    <div class="page" data-page="/certificados" data-title="Certificados e cursos — Thauanne Luna" data-desc="Certificados de Thauanne Luna (Sebrae, Fundação Bradesco e outros) com um resumo do que foi aprendido em cada curso." hidden>
+      <div class="inner-page">
+        <div class="wrap-6">
+          <div class="page-head page-head-sm">
+            <p class="eyebrow">Formação contínua</p>
+            <h1 class="page-title italic">Certificados e cursos</h1>
+            <p class="page-lead">
+              Cada certificado vem com um resumo do conteúdo e do que levei do curso para o meu trabalho com design, comunicação e negócios.
+            </p>
+            <div class="cert-stats" id="cert-stats"></div>
+          </div>
+
+          <!-- Preenchido por script.js a partir do array COURSES -->
+          <div class="cert-list" id="cert-list"></div>
+          <noscript><div class="empty-state">Ative o JavaScript para ver os certificados e os resumos dos cursos.</div></noscript>
+
+          <p class="cert-note">Os certificados são exibidos apenas para visualização, com marca d'água. A autenticidade pode ser conferida no site da instituição com o código de autenticação de cada certificado, e uma cópia do original pode ser solicitada diretamente comigo.</p>
         </div>
       </div>
     </div>
@@ -709,7 +722,7 @@
         <div class="wrap-4">
           <div class="section-header">
             <span class="section-eyebrow">Vamos Conversar?</span>
-            <h2>Tem um projeto em mente?</h2>
+            <h1>Tem um projeto em mente?</h1>
             <p class="section-desc">Entre em contato e vamos criar algo incrível juntos.</p>
           </div>
 
@@ -845,11 +858,20 @@
 
 <!-- Detalhes do projeto (caixa de diálogo nativa, preenchida por script.js) -->
 <dialog id="project-dialog" class="dialog" aria-labelledby="dialog-title" aria-describedby="dialog-desc">
-  <div id="dialog-body" class="dialog-body"></div>
   <button type="button" class="dialog-close" id="dialog-close">
     <svg class="icon" aria-hidden="true"><use href="#i-x"/></svg>
     <span class="sr-only">Fechar</span>
   </button>
+  <div id="dialog-body" class="dialog-body"></div>
+</dialog>
+
+<!-- Visualizador de certificado (preenchido por script.js) -->
+<dialog id="cert-dialog" class="dialog dialog-wide" aria-label="Certificado">
+  <button type="button" class="dialog-close" id="cert-close">
+    <svg class="icon" aria-hidden="true"><use href="#i-x"/></svg>
+    <span class="sr-only">Fechar</span>
+  </button>
+  <div id="cert-body"></div>
 </dialog>
 
 <script src="script.js"></script>
