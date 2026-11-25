@@ -52,7 +52,7 @@
       title: "Thau Luna Studio", kind: "Marca autoral", category: "Marca própria · Identidade visual e presença digital",
       categories: ["Design gráfico", "Desenvolvimento web", "Produtos personalizados", "Autorais & editoriais"],
       tags: ["Marca própria", "Identidade visual", "Presença digital"], image: "assets/img/project-thau-luna.png",
-      href: "https://thauanneluna.github.io/siteinstitucionalthauacessorios/",
+      href: "https://thauanneluna.github.io/siteinstitucionalthau/",
       summary: "Minha marca autoral, em constante evolução. Nasceu da Thau Luna Acessórios e hoje reúne design gráfico, identidade visual, produtos personalizados, acessórios, desenvolvimento web e soluções digitais.",
       tools: "HTML e CSS no site publicado. Demais ferramentas de criação variam conforme cada peça da marca.",
       objective: "Dar forma a uma marca que acompanhasse meu crescimento: deixar de ser apenas uma loja de acessórios para se tornar um estúdio criativo, capaz de comunicar com clareza tudo o que faço.",
